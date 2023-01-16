@@ -1,0 +1,10 @@
+/mnt/c/Users/xyzel/OneDrive/Документы/GIT/file.txtconsole.log(Math.round(5.34));
+
+
+// Встроенный в Node.js модуль для работы с файлами
+import fs from "fs";
+
+// Читает содержимое файла
+const data = fs.readFileSync("C:\Users\xyzel\OneDrive\Документы\GIT\git-cheat-sheet.pdf"); 
+
+console.log(data);
